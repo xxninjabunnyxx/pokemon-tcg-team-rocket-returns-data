@@ -1,0 +1,95 @@
+---
+id: ex7-29
+name: Dark Arbok
+supertype: Pokémon
+subtypes:
+- Stage 1
+hp: '90'
+types:
+- Grass
+- Darkness
+evolvesFrom: Ekans
+rules:
+- This Pokémon is both Grass Darkness type.
+attacks:
+- name: Swallow Up
+  cost:
+  - Grass
+  convertedEnergyCost: 1
+  damage: 10+
+  text: Before doing damage, count the remaining HP of the Defending Pokémon and Dark
+    Arbok. If the Defending Pokémon has fewer remaining HP than Dark Arbok's, this
+    attack does 10 damage plus 30 more damage.
+- name: Extra Poison
+  cost:
+  - Colorless
+  - Colorless
+  convertedEnergyCost: 2
+  damage: '30'
+  text: If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Asleep
+    and Poisoned.
+weaknesses:
+- type: Psychic
+  value: "×2"
+retreatCost:
+- Colorless
+convertedRetreatCost: 1
+set:
+  id: ex7
+  name: Team Rocket Returns
+  series: EX
+  printedTotal: 109
+  total: 111
+  legalities:
+    unlimited: Legal
+  ptcgoCode: TRR
+  releaseDate: 2004/11/01
+  updatedAt: 2019/01/28 16:44:00
+  images:
+    symbol: https://images.pokemontcg.io/ex7/symbol.png
+    logo: https://images.pokemontcg.io/ex7/logo.png
+number: '29'
+artist: Nakaoka
+rarity: Uncommon
+nationalPokedexNumbers:
+- 24
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex7/29.png
+  large: https://images.pokemontcg.io/ex7/29_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex7-29
+  updatedAt: 2023/09/10
+  prices:
+    normal:
+      low: 0.89
+      mid: 1.49
+      high: 7.45
+      market: 1.66
+      directLow: 1.11
+    reverseHolofoil:
+      low: 5.0
+      mid: 17.0
+      high: 23.47
+      market: 18.74
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex7-29
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 1.43
+    lowPrice: 0.3
+    trendPrice: 1.2
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 24.95
+    reverseHoloLow: 5.99
+    reverseHoloTrend: 14.0
+    lowPriceExPlus: 1.0
+    avg1: 1.48
+    avg7: 1.35
+    avg30: 1.25
+    reverseHoloAvg1: 24.95
+    reverseHoloAvg7: 10.77
+    reverseHoloAvg30: 7.87

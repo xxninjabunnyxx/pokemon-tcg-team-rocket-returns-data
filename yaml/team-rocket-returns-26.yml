@@ -1,0 +1,90 @@
+---
+id: ex7-26
+name: Quagsire
+supertype: Pokémon
+subtypes:
+- Stage 1
+hp: '80'
+types:
+- Water
+evolvesFrom: Wooper
+abilities:
+- name: Saturation
+  text: When you attach a Water Energy card from your hand to Quagsire, remove all
+    Special Conditions and 2 damage counters from Quagsire.
+  type: Poké-Body
+attacks:
+- name: Hyper Pump
+  cost:
+  - Water
+  convertedEnergyCost: 1
+  damage: 20+
+  text: Does 20 damage plus 20 more damage for each basic Energy card attached to
+    Quagsire but not used to pay for this attack's Energy cost. You can't add more
+    than 60 damage in this way.
+weaknesses:
+- type: Grass
+  value: "×2"
+retreatCost:
+- Colorless
+- Colorless
+convertedRetreatCost: 2
+set:
+  id: ex7
+  name: Team Rocket Returns
+  series: EX
+  printedTotal: 109
+  total: 111
+  legalities:
+    unlimited: Legal
+  ptcgoCode: TRR
+  releaseDate: 2004/11/01
+  updatedAt: 2019/01/28 16:44:00
+  images:
+    symbol: https://images.pokemontcg.io/ex7/symbol.png
+    logo: https://images.pokemontcg.io/ex7/logo.png
+number: '26'
+artist: Miki Tanaka
+rarity: Rare
+nationalPokedexNumbers:
+- 195
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex7/26.png
+  large: https://images.pokemontcg.io/ex7/26_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex7-26
+  updatedAt: 2023/09/10
+  prices:
+    normal:
+      low: 0.71
+      mid: 1.33
+      high: 4.11
+      market: 1.37
+      directLow: 0.82
+    reverseHolofoil:
+      low: 10.77
+      mid: 18.99
+      high: 60.69
+      market: 19.8
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex7-26
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 0.5
+    lowPrice: 0.2
+    trendPrice: 0.7
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 1.89
+    reverseHoloTrend: 10.72
+    lowPriceExPlus: 0.49
+    avg1: 0.4
+    avg7: 0.63
+    avg30: 1.19
+    reverseHoloAvg1: 9.99
+    reverseHoloAvg7: 11.67
+    reverseHoloAvg30: 6.13
